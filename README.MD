@@ -18,7 +18,7 @@ pom文件引入
 
 本地开发单节点可以配置如下，如不配置，可能会报NoNodeAvailableException：
 配置参考链接：https://blog.csdn.net/huang_550/article/details/89331898
-(```)
+```
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 network.publish_host: 192.168.139.129 #修改监听的IP为本机的IP地址
@@ -28,7 +28,7 @@ http.cors.enabled: true
 http.cors.allow-origin: "*"
 node.master: true
 node.data: true
-(```)
+```
 
 spring-boot-starter-data-elasticsearch地址：https://github.com/spring-projects/spring-data-elasticsearch
 
