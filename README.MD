@@ -2,9 +2,9 @@
 
 - ##docker安装
 安装参考链接：https://blog.csdn.net/belonghuang157405/article/details/83301937
-(```)
+```
 docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9200:9200 -p 9300:9300 -v /home/soft/ES/config/es1.yml:/usr/share/elasticsearch/config/elasticsearch.yml -v /home/soft/ES/data1:/usr/share/elasticsearch/data --name elasticsearch elasticsearch:latest
-(```)
+```
 其中elasticsearch.yml是配置文件，可以配置单机或者集群
 
 - ##整合
